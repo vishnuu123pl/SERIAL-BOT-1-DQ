@@ -270,6 +270,11 @@ async def start(client, message):
                     InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
                 ]]
+                await message.reply_photo(
+                    photo="https://telegra.ph/file/b52d3b2e6822de091f333.jpg",
+                    caption="<b>⚠️ഇനിമുതൽ സീരിയലുകൾ നേരിട്ട് വീഡിയോ ആയി\n<blockquote>😱 VERIFY 😱</blockquote>\nചെയ്യാതെ ഗ്രൂപ്പുകളിൽ ലഭിക്കും, എളുപ്പത്തിലും വേഗത്തിലും. 😍\n\n🔥 അതും വെറും 5rs\n\n🌟കൂടുതലറിയാൻ അഡ്മിൻ ബോട്ടിൽ ബന്ധപ്പെടുക.👮‍♂\n\n🤖ADMIN\n@Mallu_adminbot</b>",
+                    parse_mode=enums.ParseMode.HTML
+                )
                 await message.reply_text(
                     text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
                     protect_content=True if PROTECT_CONTENT else False,
@@ -323,6 +328,11 @@ async def start(client, message):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ]]
+        await message.reply_photo(
+            photo="https://telegra.ph/file/b52d3b2e6822de091f333.jpg",
+            caption="<b>⚠️ഇനിമുതൽ സീരിയലുകൾ നേരിട്ട് വീഡിയോ ആയി\n<blockquote>😱 VERIFY 😱</blockquote>\nചെയ്യാതെ ഗ്രൂപ്പുകളിൽ ലഭിക്കും, എളുപ്പത്തിലും വേഗത്തിലും. 😍\n\n🔥 അതും വെറും 5rs\n\n🌟കൂടുതലറിയാൻ അഡ്മിൻ ബോട്ടിൽ ബന്ധപ്പെടുക.👮‍♂\n\n🤖ADMIN\n@Mallu_adminbot</b>",
+            parse_mode=enums.ParseMode.HTML
+        )
         await message.reply_text(
             text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
             protect_content=True if PROTECT_CONTENT else False,
